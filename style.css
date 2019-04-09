@@ -13,22 +13,22 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
-#page{
+/** PAGE **/ 
+#page {
     position: relative;
 }
 
 /** HEADER **/
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
-#navbar{
+#navbar {
     background-color: #160c28;
 }
-#navbar ul{
+#navbar ul {
     height: 80px;
     font-family: 'Playfair Display', cursive;
     font-size: 1.4rem;
