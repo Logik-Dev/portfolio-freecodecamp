@@ -53,10 +53,11 @@ section{
 
 #welcome-section:nth-child(1){
     background: url("/images/arc.jpg");
-    /* background-attachment: fixed; */
     background-position: center; 
     background-size: cover;
+    position: static;
 }
+
 #welcome-section{
     height: 100vh;
     display: flex;
