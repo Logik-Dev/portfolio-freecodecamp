@@ -3,10 +3,11 @@ import Typed from 'typed.js';
 require('./style.css');
 require('./index.html');
 
-  // PARALLAX EFFECT
-  const parallax = document.getElementById('welcome-section');
+document.addEventListener('DOMContentLoaded', () => {
+    // PARALLAX EFFECT
+  var parallax = document.getElementById('welcome-section');
   window.addEventListener('scroll', () => {
-    const scrolled = window.pageYOffset;
+    var scrolled = window.pageYOffset;
     parallax.style.backgroundPositionY = scrolled * 0.7+"px";
   });
 
@@ -21,3 +22,7 @@ require('./index.html');
         cursorChar: "",
       });
   }, 2000);
+
+
+})
+
